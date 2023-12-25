@@ -92,7 +92,7 @@
 			</p>
 			<form on:submit|preventDefault={() => submitCode(1, guess1)}>
 				<label for="clue-1">CODE:</label>
-				<input id="clue-1" type="text" bind:value={guess1} />
+				<input id="clue-1" type="text" bind:value={guess1} autocomplete="off" />
 				<button
 					class={`submit ${currentStep > 1 ? 'disabled' : ''}`}
 					type="submit"
@@ -118,7 +118,7 @@
 			</p>
 			<form on:submit|preventDefault={() => submitCode(2, guess2)}>
 				<label for="clue-2">CODE:</label>
-				<input id="clue-2" type="text" bind:value={guess2} />
+				<input id="clue-2" type="text" bind:value={guess2} autocomplete="off" />
 				<button
 					class={`submit ${currentStep > 2 ? 'disabled' : ''}`}
 					type="submit"
@@ -144,7 +144,7 @@
 			</p>
 			<form on:submit|preventDefault={() => submitCode(3, guess3)}>
 				<label for="clue-3">CODE:</label>
-				<input id="clue-3" type="text" bind:value={guess3} />
+				<input id="clue-3" type="text" bind:value={guess3} autocomplete="off" />
 				<button
 					class={`submit ${currentStep > 3 ? 'disabled' : ''}`}
 					type="submit"
@@ -170,7 +170,7 @@
 			</p>
 			<form on:submit|preventDefault={() => submitCode(4, guess4)}>
 				<label for="clue-4">CODE:</label>
-				<input id="clue-4" type="text" bind:value={guess4} />
+				<input id="clue-4" type="text" bind:value={guess4} autocomplete="off" />
 				<button
 					class={`submit ${currentStep > 4 ? 'disabled' : ''}`}
 					type="submit"
