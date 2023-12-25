@@ -3,7 +3,7 @@
 	import { tick } from 'svelte';
 
 	let started = false;
-	const codes = ['ABC', 'DEF', 'GHI', 'JKL'];
+	const codes = ['n4ughty', '3ric', 'isth3', 'b3st'];
 	let guess1 = '';
 	let guess2 = '';
 	let guess3 = '';
